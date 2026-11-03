@@ -1,7 +1,8 @@
 {
-  "name": "My TV Portal",
+  "name": "Moslimllah TV Portal",
   "version": "1.0.0",
-  "parameter": "content:https://{PREFIX}{SERVER}/msx/menu.json",
+  "parameter": "content:https://moslimllah.github.io/msx/start.json",
+  "type": "pages",
   "headline": "بوابة التلفزيون الخاصة بي",
   "template": {
     "type": "separate",
@@ -32,7 +33,7 @@
     },
     {
       "title": "MSX Player",
-      "label": "مشغل IPTV بديل",
+      "label": "مشغل IPTV",
       "icon": "tv",
       "color": "blue",
       "action": "content:http://msxplayer.ru/start.json"
@@ -45,8 +46,8 @@
       "action": "link:http://ott-play.com/f/"
     },
     {
-      "title": "تطبيقات وألعاب MSX",
-      "label": "متجر MSX الرسمي",
+      "title": "متجر MSX الرسمي",
+      "label": "تطبيقات وألعاب",
       "icon": "apps",
       "color": "green",
       "action": "content:http://v7.msx.benzac.de/msx/start.json"
