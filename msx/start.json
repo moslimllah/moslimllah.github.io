@@ -1,35 +1,35 @@
 {
-  "name": "Moslimllah Movie Player",
-  "version": "1.1.3",
+  "name": "Moslimllah Portal",
+  "version": "2.1.0",
   "parameter": "content:https://moslimllah.github.io/msx/start.json",
   "type": "pages",
-  "headline": "Spider-Man: Brand New Day (VidTube)",
+  "headline": "بوابتي التلفزيونية",
   "template": {
     "type": "separate",
-    "layout": "0,0,3,3",
+    "layout": "0,0,4,2",
     "color": "msx-glass"
   },
   "items": [
     {
-      "title": "1. مشغل الفيلم المباشر (Embed)",
-      "label": "يفتح المشغل بملء الشاشة",
-      "icon": "play-circle-filled",
+      "title": "مشغل Xtream (Ott-Play)",
+      "label": "إدخال بيانات السيرفر مباشرة",
+      "icon": "settings-input-antenna",
+      "color": "deep-purple",
+      "action": "link:http://ott-play.com/f/"
+    },
+    {
+      "title": "قائمة الأفلام المباشرة (M3U)",
+      "label": "مكتبة الملفات التجريبية",
+      "icon": "playlist-play",
       "color": "green",
-      "action": "link:https://vidtube.one/embed-8klupnhcbfol.html"
+      "action": "content:https://ott-play.com/f/?esz=1&url=https://moslimllah.github.io/msx/playlist.m3u"
     },
     {
-      "title": "2. مشغل بديل (Down Embed)",
-      "label": "عبر نطاق التحميل",
+      "title": "Lampa TV",
+      "label": "مشغل الأفلام والمسلسلات",
       "icon": "movie",
-      "color": "blue",
-      "action": "link:https://down.vidtube.one/embed-8klupnhcbfol.html"
-    },
-    {
-      "title": "3. صفحة التحميل والتشغيل",
-      "label": "الرابط الذي نسخته من 1DM",
-      "icon": "cloud-download",
-      "color": "orange",
-      "action": "link:https://down.vidtube.one/d/8klupnhcbfol_h"
+      "color": "deep-orange",
+      "action": "link:http://lampa.mx"
     }
   ]
 }
