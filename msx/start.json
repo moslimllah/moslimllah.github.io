@@ -1,4 +1,7 @@
 {
+  "name": "My TV Portal",
+  "version": "1.0.0",
+  "parameter": "content:https://{PREFIX}{SERVER}/msx/menu.json",
   "headline": "بوابة التلفزيون الخاصة بي",
   "template": {
     "type": "separate",
