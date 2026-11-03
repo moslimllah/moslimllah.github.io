@@ -1,21 +1,35 @@
 {
   "name": "Moslimllah Movie Player",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "parameter": "content:https://moslimllah.github.io/msx/start.json",
   "type": "pages",
-  "headline": "مشغل الأفلام المباشر",
+  "headline": "تجربة مشغلات الفيلم",
   "template": {
     "type": "separate",
-    "layout": "0,0,6,3",
+    "layout": "0,0,3,3",
     "color": "msx-glass"
   },
   "items": [
     {
-      "title": "تشغيل الفيلم الآن",
-      "label": "اضغط OK للمشاهدة",
+      "title": "1. مشغل HLS (Index)",
+      "label": "عبر إضافة HLS الرسمية",
       "icon": "play-circle-filled",
       "color": "green",
-      "action": "video:https://serv-stream-cdn32.cdn-video.xyz/hls2/01/00082/8klupnhcbfol_x/index-v1-a1.m3u8?t=4uRhvkggA84MOx5vRYKEjuh3W598a-cGRC-CIJGAJpU&s=1793741856&e=86400&f=414260&srv=c20&i=0.0&sp=4000&p1=serv-stream-cdn32&p2=serv-stream-cdn32"
+      "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fserv-stream-cdn32.cdn-video.xyz%2Fhls2%2F01%2F00082%2F8klupnhcbfol_x%2Findex-v1-a1.m3u8%3Ft%3D4uRhvkggA84MOx5vRYKEjuh3W598a-cGRC-CIJGAJpU%26s%3D1793741856%26e%3D86400%26f%3D414260%26srv%3Dc20%26i%3D0.0%26sp%3D4000%26p1%3Dserv-stream-cdn32%26p2%3Dserv-stream-cdn32"
+    },
+    {
+      "title": "2. مشغل HLS (Master)",
+      "label": "الرابط الرئيسي للبث",
+      "icon": "movie",
+      "color": "blue",
+      "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fserv-stream-cdn32.cdn-video.xyz%2Fhls2%2F01%2F00082%2F8klupnhcbfol_x%2Fmaster.m3u8%3Ft%3D4uRhvkggA84MOx5vRYKEjuh3W598a-cGRC-CIJGAJpU%26s%3D1793741856%26e%3D86400%26f%3D414260%26srv%3Dc20%26i%3D0.0%26sp%3D4000%26p1%3Dserv-stream-cdn32%26p2%3Dserv-stream-cdn32"
+    },
+    {
+      "title": "3. مشغل HTML5 (Master)",
+      "label": "تشغيل مباشر بدون إضافة",
+      "icon": "smart-display",
+      "color": "orange",
+      "action": "video:https://serv-stream-cdn32.cdn-video.xyz/hls2/01/00082/8klupnhcbfol_x/master.m3u8?t=4uRhvkggA84MOx5vRYKEjuh3W598a-cGRC-CIJGAJpU&s=1793741856&e=86400&f=414260&srv=c20&i=0.0&sp=4000&p1=serv-stream-cdn32&p2=serv-stream-cdn32"
     }
   ]
 }
