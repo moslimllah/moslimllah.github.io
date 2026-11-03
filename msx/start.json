@@ -1,28 +1,35 @@
 {
   "name": "Moslimllah Movie Player",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "parameter": "content:https://moslimllah.github.io/msx/start.json",
   "type": "pages",
-  "headline": "Spider-Man: Brand New Day (1080p MP4)",
+  "headline": "Spider-Man: Brand New Day (VidTube)",
   "template": {
     "type": "separate",
-    "layout": "0,0,4,2",
+    "layout": "0,0,3,3",
     "color": "msx-glass"
   },
   "items": [
     {
-      "title": "1. تشغيل الفيلم (مشغل MSX)",
-      "label": "تشغيل مباشر 1080p MP4",
+      "title": "1. مشغل الفيلم المباشر (Embed)",
+      "label": "يفتح المشغل بملء الشاشة",
       "icon": "play-circle-filled",
       "color": "green",
-      "action": "video:https://serv-stream-cdn32.cdn-video.xyz/vp/01/00082/8klupnhcbfol_h/Spider-Man.Brand.New.Day.2026.1080p.AMZN.WEB-DL.mp4?t=VSaeIcJjhSR7yb39EAkFHWT2Tg6rUPfRnyFBZ9699hI&s=1793748326&e=86400&v=&sp=1000&i=0.0&srv=c20"
+      "action": "link:https://vidtube.one/embed-8klupnhcbfol.html"
     },
     {
-      "title": "2. تشغيل الفيلم (متصفح داخلي)",
-      "label": "احتياطي في حال حجب المشغل",
+      "title": "2. مشغل بديل (Down Embed)",
+      "label": "عبر نطاق التحميل",
       "icon": "movie",
       "color": "blue",
-      "action": "link:https://serv-stream-cdn32.cdn-video.xyz/vp/01/00082/8klupnhcbfol_h/Spider-Man.Brand.New.Day.2026.1080p.AMZN.WEB-DL.mp4?t=VSaeIcJjhSR7yb39EAkFHWT2Tg6rUPfRnyFBZ9699hI&s=1793748326&e=86400&v=&sp=1000&i=0.0&srv=c20"
+      "action": "link:https://down.vidtube.one/embed-8klupnhcbfol.html"
+    },
+    {
+      "title": "3. صفحة التحميل والتشغيل",
+      "label": "الرابط الذي نسخته من 1DM",
+      "icon": "cloud-download",
+      "color": "orange",
+      "action": "link:https://down.vidtube.one/d/8klupnhcbfol_h"
     }
   ]
 }
