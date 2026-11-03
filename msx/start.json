@@ -1,70 +1,21 @@
 {
-  "name": "Moslimllah TV Portal",
-  "version": "1.0.1",
+  "name": "Moslimllah Movie Player",
+  "version": "1.0.5",
   "parameter": "content:https://moslimllah.github.io/msx/start.json",
   "type": "pages",
-  "headline": "بوابة التلفزيون الخاصة بي",
+  "headline": "مشغل الأفلام المباشر",
   "template": {
     "type": "separate",
-    "layout": "0,0,4,2",
+    "layout": "0,0,6,3",
     "color": "msx-glass"
   },
   "items": [
     {
-      "title": "YouTube TV",
-      "label": "يوتيوب للتلفزيون",
-      "icon": "smart-display",
-      "color": "red",
-      "action": "link:https://www.youtube.com/tv"
-    },
-    {
-      "title": "OSN+",
-      "label": "منصة أو إس إن بلس",
-      "icon": "movie",
-      "color": "deep-orange",
-      "action": "link:https://stream.osn.com"
-    },
-    {
-      "title": "Yango Play",
-      "label": "يانغو بلاي",
+      "title": "تشغيل الفيلم الآن",
+      "label": "اضغط OK للمشاهدة",
       "icon": "play-circle-filled",
-      "color": "indigo",
-      "action": "link:https://yango.com/ar/play/"
-    },
-    {
-      "title": "YouTube Kids",
-      "label": "يوتيوب أطفال",
-      "icon": "child-care",
-      "color": "orange",
-      "action": "link:https://www.youtubekids.com"
-    },
-    {
-      "title": "OttPlayer",
-      "label": "مشغل القنوات",
-      "icon": "live-tv",
-      "color": "purple",
-      "action": "link:http://widget.ottplayer.tv/test/index.html"
-    },
-    {
-      "title": "MSX Player",
-      "label": "مشغل IPTV",
-      "icon": "tv",
-      "color": "blue",
-      "action": "content:http://msxplayer.ru/start.json"
-    },
-    {
-      "title": "Ott-Play FOSS",
-      "label": "مشغل قوائم M3U",
-      "icon": "dvr",
-      "color": "teal",
-      "action": "link:http://ott-play.com/f/"
-    },
-    {
-      "title": "متجر MSX الرسمي",
-      "label": "تطبيقات وألعاب",
-      "icon": "apps",
       "color": "green",
-      "action": "content:http://v7.msx.benzac.de/msx/start.json"
+      "action": "video:https://serv-stream-cdn32.cdn-video.xyz/hls2/01/00082/8klupnhcbfol_x/index-v1-a1.m3u8?t=4uRhvkggA84MOx5vRYKEjuh3W598a-cGRC-CIJGAJpU&s=1793741856&e=86400&f=414260&srv=c20&i=0.0&sp=4000&p1=serv-stream-cdn32&p2=serv-stream-cdn32"
     }
   ]
 }
