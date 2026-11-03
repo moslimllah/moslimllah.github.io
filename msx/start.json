@@ -1,35 +1,28 @@
 {
   "name": "Moslimllah Movie Player",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "parameter": "content:https://moslimllah.github.io/msx/start.json",
   "type": "pages",
-  "headline": "تشغيل الفيلم - رابط Index الأصلي",
+  "headline": "Spider-Man: Brand New Day (1080p MP4)",
   "template": {
     "type": "separate",
-    "layout": "0,0,3,3",
+    "layout": "0,0,4,2",
     "color": "msx-glass"
   },
   "items": [
     {
-      "title": "1. تشغيل بمشغل التلفزيون",
-      "label": "Video Direct",
+      "title": "1. تشغيل الفيلم (مشغل MSX)",
+      "label": "تشغيل مباشر 1080p MP4",
       "icon": "play-circle-filled",
       "color": "green",
-      "action": "video:https://serv-stream-cdn28.cdn-video.xyz/hls2/01/00082/8klupnhcbfol_x/index-v1-a1.m3u8?t=pEKmrrE6gwBLdho1eAkj5m9bANGlaUrG1AvpUbpWuFY&s=1793747324&e=86400&f=414260&srv=c20&i=0.0&sp=4000&p1=serv-stream-cdn28&p2=serv-stream-cdn28"
+      "action": "video:https://serv-stream-cdn32.cdn-video.xyz/vp/01/00082/8klupnhcbfol_h/Spider-Man.Brand.New.Day.2026.1080p.AMZN.WEB-DL.mp4?t=VSaeIcJjhSR7yb39EAkFHWT2Tg6rUPfRnyFBZ9699hI&s=1793748326&e=86400&v=&sp=1000&i=0.0&srv=c20"
     },
     {
-      "title": "2. تشغيل بإضافة HLS",
-      "label": "HLS Plugin",
+      "title": "2. تشغيل الفيلم (متصفح داخلي)",
+      "label": "احتياطي في حال حجب المشغل",
       "icon": "movie",
       "color": "blue",
-      "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fserv-stream-cdn28.cdn-video.xyz%2Fhls2%2F01%2F00082%2F8klupnhcbfol_x%2Findex-v1-a1.m3u8%3Ft%3DpEKmrrE6gwBLdho1eAkj5m9bANGlaUrG1AvpUbpWuFY%26s%3D1793747324%26e%3D86400%26f%3D414260%26srv%3Dc20%26i%3D0.0%26sp%3D4000%26p1%3Dserv-stream-cdn28%26p2%3Dserv-stream-cdn28"
-    },
-    {
-      "title": "3. فتح عبر المتصفح الداخلي",
-      "label": "Link Mode",
-      "icon": "globe",
-      "color": "orange",
-      "action": "link:https://serv-stream-cdn28.cdn-video.xyz/hls2/01/00082/8klupnhcbfol_x/index-v1-a1.m3u8?t=pEKmrrE6gwBLdho1eAkj5m9bANGlaUrG1AvpUbpWuFY&s=1793747324&e=86400&f=414260&srv=c20&i=0.0&sp=4000&p1=serv-stream-cdn28&p2=serv-stream-cdn28"
+      "action": "link:https://serv-stream-cdn32.cdn-video.xyz/vp/01/00082/8klupnhcbfol_h/Spider-Man.Brand.New.Day.2026.1080p.AMZN.WEB-DL.mp4?t=VSaeIcJjhSR7yb39EAkFHWT2Tg6rUPfRnyFBZ9699hI&s=1793748326&e=86400&v=&sp=1000&i=0.0&srv=c20"
     }
   ]
 }
