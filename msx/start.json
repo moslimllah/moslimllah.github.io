@@ -1,0 +1,52 @@
+{
+  "headline": "بوابة التلفزيون الخاصة بي",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,3,2",
+    "color": "msx-glass"
+  },
+  "items": [
+    {
+      "title": "YouTube TV",
+      "label": "يوتيوب للتلفزيون",
+      "icon": "smart-display",
+      "color": "red",
+      "action": "link:https://www.youtube.com/tv"
+    },
+    {
+      "title": "YouTube Kids",
+      "label": "يوتيوب أطفال",
+      "icon": "child-care",
+      "color": "orange",
+      "action": "link:https://www.youtubekids.com"
+    },
+    {
+      "title": "OttPlayer",
+      "label": "مشغل القنوات",
+      "icon": "live-tv",
+      "color": "purple",
+      "action": "link:http://widget.ottplayer.tv/test/index.html"
+    },
+    {
+      "title": "MSX Player",
+      "label": "مشغل IPTV بديل",
+      "icon": "tv",
+      "color": "blue",
+      "action": "content:http://msxplayer.ru/start.json"
+    },
+    {
+      "title": "Ott-Play FOSS",
+      "label": "مشغل قوائم M3U",
+      "icon": "dvr",
+      "color": "teal",
+      "action": "link:http://ott-play.com/f/"
+    },
+    {
+      "title": "تطبيقات وألعاب MSX",
+      "label": "متجر MSX الرسمي",
+      "icon": "apps",
+      "color": "green",
+      "action": "content:http://v7.msx.benzac.de/msx/start.json"
+    }
+  ]
+}
