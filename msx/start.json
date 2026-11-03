@@ -1,9 +1,9 @@
 {
-  "name": "Moslimllah Portal",
-  "version": "2.1.0",
+  "name": "Moslimllah IPTV Cinema",
+  "version": "2.0.0",
   "parameter": "content:https://moslimllah.github.io/msx/start.json",
   "type": "pages",
-  "headline": "بوابتي التلفزيونية",
+  "headline": "مكتبة الأفلام والقوائم - Moslimllah",
   "template": {
     "type": "separate",
     "layout": "0,0,4,2",
@@ -11,25 +11,32 @@
   },
   "items": [
     {
-      "title": "مشغل Xtream (Ott-Play)",
-      "label": "إدخال بيانات السيرفر مباشرة",
-      "icon": "settings-input-antenna",
-      "color": "deep-purple",
-      "action": "link:http://ott-play.com/f/"
-    },
-    {
-      "title": "قائمة الأفلام المباشرة (M3U)",
-      "label": "مكتبة الملفات التجريبية",
+      "title": "قائمة الأفلام (M3U)",
+      "label": "تشغيل مكتبة الفيديوهات",
       "icon": "playlist-play",
       "color": "green",
       "action": "content:https://ott-play.com/f/?esz=1&url=https://moslimllah.github.io/msx/playlist.m3u"
     },
     {
+      "title": "Ott-Play FOSS",
+      "label": "مشغل القوائم المتقدم",
+      "icon": "live-tv",
+      "color": "teal",
+      "action": "link:http://ott-play.com/f/"
+    },
+    {
       "title": "Lampa TV",
-      "label": "مشغل الأفلام والمسلسلات",
-      "icon": "movie",
+      "label": "تطبيق الأفلام والمسلسلات",
+      "icon": "movie-filter",
       "color": "deep-orange",
       "action": "link:http://lampa.mx"
+    },
+    {
+      "title": "Web Video Caster",
+      "label": "إرسال أي فيلم من الموبايل",
+      "icon": "cast-connected",
+      "color": "amber",
+      "action": "link:http://cast2tv.io"
     }
   ]
 }
