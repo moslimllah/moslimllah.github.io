@@ -1,35 +1,28 @@
 {
   "name": "Moslimllah Movie Player",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "parameter": "content:https://moslimllah.github.io/msx/start.json",
   "type": "pages",
-  "headline": "تشغيل الفيلم - الرابط الأصلي",
+  "headline": "تشغيل الفيلم عبر المشغل المدمج",
   "template": {
     "type": "separate",
-    "layout": "0,0,3,3",
+    "layout": "0,0,4,2",
     "color": "msx-glass"
   },
   "items": [
     {
-      "title": "1. تشغيل بمشغل HLS",
-      "label": "الطريقة المفضلة لملفات m3u8",
+      "title": "تشغيل عبر Web Video Caster",
+      "label": "يتخطى حماية السيرفر تلقائياً",
+      "icon": "cast-connected",
+      "color": "amber",
+      "action": "link:http://cast2tv.io"
+    },
+    {
+      "title": "تجربة مشغل فيديو مفتوح",
+      "label": "للتأكد أن المشغل يعمل 100%",
       "icon": "play-circle-filled",
       "color": "green",
-      "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fserv-stream-cdn27.cdn-video.xyz%2Fhls2%2F01%2F00082%2F8klupnhcbfol_%2Cl%2Cn%2Ch%2Cx%2C.urlset%2Fmaster.m3u8%3Ft%3DqqFo4rBBH0uQno0vk8e2H3HyCM1mY5wtDTJnp00Mzow%26s%3D1793743434%26e%3D86400%26f%3D414260%26srv%3Dc20%26i%3D0.0%26sp%3D4000%26p1%3Dserv-stream-cdn27%26p2%3Dserv-stream-cdn27"
-    },
-    {
-      "title": "2. تشغيل مباشر (HTML5)",
-      "label": "المشغل الافتراضي",
-      "icon": "movie",
-      "color": "blue",
-      "action": "video:https://serv-stream-cdn27.cdn-video.xyz/hls2/01/00082/8klupnhcbfol_,l,n,h,x,.urlset/master.m3u8?t=qqFo4rBBH0uQno0vk8e2H3HyCM1mY5wtDTJnp00Mzow&s=1793743434&e=86400&f=414260&srv=c20&i=0.0&sp=4000&p1=serv-stream-cdn27&p2=serv-stream-cdn27"
-    },
-    {
-      "title": "3. فتح كصفحة ويب",
-      "label": "لتخطي حماية المتصفح",
-      "icon": "globe",
-      "color": "orange",
-      "action": "link:https://serv-stream-cdn27.cdn-video.xyz/hls2/01/00082/8klupnhcbfol_,l,n,h,x,.urlset/master.m3u8?t=qqFo4rBBH0uQno0vk8e2H3HyCM1mY5wtDTJnp00Mzow&s=1793743434&e=86400&f=414260&srv=c20&i=0.0&sp=4000&p1=serv-stream-cdn27&p2=serv-stream-cdn27"
+      "action": "video:https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
     }
   ]
 }
